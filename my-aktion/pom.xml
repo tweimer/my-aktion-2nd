@@ -28,11 +28,19 @@
             <version>8.0</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-            <version>4.13.1</version>
+             <groupId>org.junit.jupiter</groupId>
+             <artifactId>junit-jupiter-api</artifactId>
+             <version>5.7.1</version>
+             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner -->
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-runner</artifactId>
+            <version>1.7.1</version>
+            <scope>test</scope>
+        </dependency>
+        
         <dependency>
             <groupId>org.jboss.arquillian.junit</groupId>
             <artifactId>arquillian-junit-container</artifactId>

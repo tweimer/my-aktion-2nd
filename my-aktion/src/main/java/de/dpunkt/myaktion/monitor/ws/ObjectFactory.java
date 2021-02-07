@@ -60,7 +60,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.monitor.myaktion.dpunkt.de/", name = "sendDonation")
     public JAXBElement<SendDonation> createSendDonation(SendDonation value) {
-        return new JAXBElement<SendDonation>(_SendDonation_QNAME, SendDonation.class, null, value);
+        return new JAXBElement<>(_SendDonation_QNAME, SendDonation.class, null, value);
     }
 
     /**
@@ -68,7 +68,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "http://ws.monitor.myaktion.dpunkt.de/", name = "sendDonationResponse")
     public JAXBElement<SendDonationResponse> createSendDonationResponse(SendDonationResponse value) {
-        return new JAXBElement<SendDonationResponse>(_SendDonationResponse_QNAME, SendDonationResponse.class, null, value);
+        return new JAXBElement<>(_SendDonationResponse_QNAME, SendDonationResponse.class, null, value);
     }
 
 }
