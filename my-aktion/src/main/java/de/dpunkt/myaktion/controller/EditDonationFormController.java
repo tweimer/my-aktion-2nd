@@ -2,7 +2,6 @@ package de.dpunkt.myaktion.controller;
 
 import de.dpunkt.myaktion.data.CampaignProducer;
 
-import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;

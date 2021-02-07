@@ -9,7 +9,7 @@ import java.text.ParseException;
 import java.util.Locale;
 
 import static org.jboss.arquillian.graphene.Graphene.guardHttp;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Location("organizer/listCampaigns.jsf")
 public class ListCampaignsPage extends AbstractPage {
