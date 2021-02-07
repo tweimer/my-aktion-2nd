@@ -5,10 +5,10 @@ import de.dpunkt.myaktion.model.Campaign;
 import de.dpunkt.myaktion.util.Events.Added;
 import de.dpunkt.myaktion.util.Events.Updated;
 
-import javax.enterprise.event.Event;
-import javax.faces.view.ViewScoped;
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.enterprise.event.Event;
+import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import java.io.Serializable;
 
 @ViewScoped

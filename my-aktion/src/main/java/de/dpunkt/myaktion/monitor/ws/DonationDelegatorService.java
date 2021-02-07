@@ -2,7 +2,7 @@
 package de.dpunkt.myaktion.monitor.ws;
 
 import javax.xml.namespace.QName;
-import javax.xml.ws.*;
+import jakarta.xml.ws.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -65,7 +65,7 @@ public class DonationDelegatorService
     }
 
     /**
-     * @param features A list of {@link javax.xml.ws.WebServiceFeature} to configure on the proxy.  Supported features not in the <code>features</code> parameter will have their default values.
+     * @param features A list of {@link jakarta.xml.ws.WebServiceFeature} to configure on the proxy.  Supported features not in the <code>features</code> parameter will have their default values.
      * @return returns DonationDelegator
      */
     @WebEndpoint(name = "DonationDelegatorPort")

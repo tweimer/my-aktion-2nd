@@ -6,10 +6,10 @@ import de.dpunkt.myaktion.model.Donation.Status;
 import de.dpunkt.myaktion.services.DonationService;
 import de.dpunkt.myaktion.services.exceptions.ObjectNotFoundException;
 
-import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
 import java.util.List;
 
 @Path("/")
@@ -58,7 +58,7 @@ public class DonationResource {
             donations = donationService.getDonationListPublic(campaignId);
             return Response.ok(donations).build();
         } catch (ObjectNotFoundException e) {
-            return Response.status(javax.ws.rs.core.Response.Status.NOT_FOUND).build();
+            return Response.status(jakarta.ws.rs.core.Response.Status.NOT_FOUND).build();
         }
     }
 

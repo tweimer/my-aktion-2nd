@@ -6,12 +6,12 @@ import de.dpunkt.myaktion.model.Donation.Status;
 import de.dpunkt.myaktion.monitor.ws.DonationDelegatorService;
 import de.dpunkt.myaktion.services.exceptions.ObjectNotFoundException;
 
-import javax.annotation.security.PermitAll;
-import javax.annotation.security.RolesAllowed;
-import javax.ejb.Stateless;
-import javax.inject.Inject;
-import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
+import jakarta.annotation.security.PermitAll;
+import jakarta.annotation.security.RolesAllowed;
+import jakarta.ejb.Stateless;
+import jakarta.inject.Inject;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
 import java.util.List;
 import java.util.function.Function;
 import java.util.logging.Level;

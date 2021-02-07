@@ -3,9 +3,9 @@ package de.dpunkt.myaktion.resources;
 import de.dpunkt.myaktion.model.Campaign;
 import de.dpunkt.myaktion.services.CampaignService;
 
-import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
 import java.util.List;
 
 @Path("/organizer/campaign")

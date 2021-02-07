@@ -6,10 +6,10 @@ import de.dpunkt.myaktion.model.Donation;
 import de.dpunkt.myaktion.services.DonationService;
 import de.dpunkt.myaktion.util.Events.Deleted;
 
-import javax.enterprise.event.Event;
-import javax.faces.view.ViewScoped;
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.enterprise.event.Event;
+import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import java.io.Serializable;
 import java.util.List;
 

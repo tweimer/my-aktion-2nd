@@ -1,7 +1,7 @@
 package de.dpunkt.myaktion.controller;
 
-import javax.faces.view.ViewScoped;
-import javax.inject.Named;
+import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Named;
 import java.io.Serializable;
 
 @ViewScoped

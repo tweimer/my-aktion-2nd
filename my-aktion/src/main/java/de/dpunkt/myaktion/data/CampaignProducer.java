@@ -2,9 +2,9 @@ package de.dpunkt.myaktion.data;
 
 import de.dpunkt.myaktion.model.Campaign;
 
-import javax.enterprise.context.SessionScoped;
-import javax.enterprise.inject.Produces;
-import javax.inject.Named;
+import jakarta.enterprise.context.SessionScoped;
+import jakarta.enterprise.inject.Produces;
+import jakarta.inject.Named;
 import java.io.Serializable;
 
 @SessionScoped

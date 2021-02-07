@@ -2,10 +2,10 @@ package de.dpunkt.myaktion.controller;
 
 import de.dpunkt.myaktion.data.CampaignProducer;
 
-import javax.faces.view.ViewScoped;
-import javax.inject.Inject;
-import javax.inject.Named;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
+import jakarta.servlet.http.HttpServletRequest;
 import java.io.Serializable;
 
 @ViewScoped

@@ -1,9 +1,9 @@
 package de.dpunkt.myaktion.model;
 
-import javax.persistence.*;
-import javax.validation.constraints.DecimalMin;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 @NamedQueries({
         @NamedQuery(name = Donation.findByStatus, query = "SELECT d FROM Donation d WHERE d.status = :status")

@@ -2,9 +2,9 @@ package de.dpunkt.myaktion.scheduler;
 
 import de.dpunkt.myaktion.services.DonationService;
 
-import javax.ejb.Schedule;
-import javax.ejb.Singleton;
-import javax.inject.Inject;
+import jakarta.ejb.Schedule;
+import jakarta.ejb.Singleton;
+import jakarta.inject.Inject;
 
 @Singleton
 public class SchedulerBean {
